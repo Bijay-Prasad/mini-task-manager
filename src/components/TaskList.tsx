@@ -77,7 +77,7 @@ export function TaskList({ tasks }: { tasks: Task[] }) {
                                     variant="ghost"
                                     size="icon"
                                     onClick={() => deleteTask(task.id)}
-                                    className="opacity-0 group-hover:opacity-100 transition-opacity text-destructive hover:text-destructive hover:bg-destructive/10 -mr-2"
+                                    className="text-destructive hover:text-destructive hover:bg-destructive/10 -mr-2"
                                 >
                                     <Trash2 className="w-5 h-5" />
                                 </Button>
